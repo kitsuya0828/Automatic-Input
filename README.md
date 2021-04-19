@@ -23,7 +23,7 @@ pip install pyautogui
 # Usage
 
 ```bash
-https://github.com/Kitsuya0828/Automatic-Input.git
+git clone https://github.com/Kitsuya0828/Automatic-Input.git
 cd Automatic-Input
 ```
 
