@@ -1,0 +1,2 @@
+gcc -o main {ファイル名}.c ppa_extra_h/p2_header.c
+./main.exe
