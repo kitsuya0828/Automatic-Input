@@ -33,4 +33,10 @@ int* func_copy_val_(
   const int pos_b
 );
 
+void print_array_range_(
+  const int* const array,
+  const int N,
+  const int p, const int r
+);
+
 #endif // _P2_HEADER_H_
