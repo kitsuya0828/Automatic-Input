@@ -75,3 +75,18 @@ int* func_copy_val_(
   array[pos_b] = array[pos_a];
   return array;
 }
+
+void print_array_range_(
+  const int* const array,
+  const int N,
+  const int p, const int r) {
+  int ri = 0;
+  for (; ri < N; ++ri) {
+    if (ri < p || r < ri) {
+      printf(" **");
+    } else {
+      printf(" %2d", array[ri]);
+    }
+  }
+  printf("\n");
+}
